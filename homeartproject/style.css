@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    background: rgb(236, 234, 222);
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 50px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: rgb(2, 19, 253);
+    color: rgb(250, 2, 2);
+    box-shadow: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+H1
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+.headings{
+    font-family: century;
+    font: size 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: black;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(2, 68, 250);
+    color: rgb(250, 247, 247);
+    box-shadow: 0 0 5px black, 0 0 10px blue, 0 0 15px white;
+    font-weight: bold;
+}
+
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#pic{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+#pic img{
+    padding: 50px;
+    width: 670px;
+    height: 500px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 3rem;
+    font-family: bold;
+    margin-bottom: 10px;
+    padding: 35px;
+    color: rgb(4, 89, 247);
+}
+#intro h3{
+    font-size: 30px;
+    font-family: bold;
+    margin-bottom: 10px;
+    padding: 35px;
+    color: rgb(199, 8, 1);
+}
+
+/* Portfolio Section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: black(0, 0, 0, 9);
+    color: rgb(15, 15, 15);
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Services Section */
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 320px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(30, 3, 126) 50% rgb(37, 1, 134) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: blue;
+    border: none;
+    box-shadow: 0 0 20px rgb(0, 23, 99)
+}
+.box img{
+    width: 190px;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Contact Section */
+footer{
+    background: rgb(236, 234, 222);
+    padding: 20px 20px;
+    word-spacing: 3px;
+    margin: 5px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #051df5;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(245, 22, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
